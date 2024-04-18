@@ -18,7 +18,7 @@ export default function Header() {
             {/*  fixed top-0 z-[1] */}
             <button onClick={() => router.push("/")}
                     style={{
-                        fontFamily: "Freesentation-9Black",
+                        fontFamily: "Freesentation-9Black, sans-serif",
                         lineHeight:1
                     }}
             >
@@ -29,11 +29,10 @@ export default function Header() {
             </button>
             <nav className="md:flex xs:hidden gap-4 text-white">
                 {/*<Link className={router.asPath === "/profile" ? "font-bold" : undefined} href="/profile">PROFILE</Link>*/}
-                <Link className={router.asPath === "/" ? "font-bold" : undefined} href="/">HOME</Link>
-                <Link className={router.asPath === "/solution" ? "font-bold" : undefined} href="/solution">퍼펙트솔루션</Link>
-                <Link className={router.asPath === "/apis" ? "font-bold" : undefined} href="/apis">정품통합알 및 파싱 api</Link>
-                <Link className={router.asPath === "/concerting" ? "font-bold" : undefined}
-                      href="/concerting">컨설팅</Link>
+                <Link href="/">HOME</Link>
+                <Link href="/solution">퍼펙트솔루션</Link>
+                <Link  href="/apis">정품통합알 및 파싱 api</Link>
+                <Link href="/concerting">컨설팅</Link>
             </nav>
             <Image src={"/hambuger.png"} width={25} height={15}
                    alt={"hambuger"}
@@ -53,7 +52,7 @@ export default function Header() {
                         />
                     </div>
                     {/*<Link className={router.asPath === "/profile" ? "font-bold" : undefined} href="/profile">PROFILE</Link>*/}
-                    <Link className={router.asPath === "/" ? "font-bold" : undefined} href="/">HOME</Link>
+                    <Link href="/">HOME</Link>
                     <Link className={router.asPath === "/solution" ? "font-bold" : undefined} href="/solution">퍼펙트솔루션</Link>
                     <Link className={router.asPath === "/apis" ? "font-bold" : undefined} href="/apis">정품통합알 및 파싱 api</Link>
                     <Link className={router.asPath === "/concerting" ? "font-bold" : undefined}

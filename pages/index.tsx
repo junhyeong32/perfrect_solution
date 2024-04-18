@@ -10,7 +10,7 @@ export default function Home() {
             <div
                 className={"w-full min-h-screen flex flex-col justify-center text-center text-white px-2 background"}>
                 <b className={"sm:text-[50px] xs:text-[30px]"} style={{
-                    fontFamily: "Freesentation-9Black"
+                    fontFamily: "Freesentation-9Black, sans-serif",
                 }}>솔루션 업계 1위! 퍼펙트 솔루션</b><br/><br/>
                 <div className={"whitespace-pre-wrap text-center sm:text-[20px] xs:text-[16px]"}>
                     {`퍼펙트솔루션은 업계 최고의 전문가들로 이루어져 있어 

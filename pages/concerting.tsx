@@ -11,7 +11,7 @@ export default function Concerting() {
                 <div className={"w-full flex flex-col gap-10"}>
                     <section className={"w-full flex flex-col gap-2"}>
                         <div className={"flex items-end border-b-2 border-black w-full pb-2"} style={{
-                            fontFamily : "Freesentation-9Black"
+                            fontFamily: "Freesentation-9Black, sans-serif",
                         }}>
                             <span className={"sm:text-[30px] xs:text-[20px]"}>Website Games Design</span>
                             <span className={"sm:text-[18px] xs:text-[14px] ml-1 mb-1"}>디자인 제작</span>

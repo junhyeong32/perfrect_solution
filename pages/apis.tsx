@@ -14,10 +14,10 @@ export default function Apis() {
                 <div className={"w-full flex md:flex-row xs:flex-col gap-10"}>
                     <section className={"w-full flex flex-col items-center gap-2"}>
                         <b className={"sm:text-[40px] xs:text-[30px]"} style={{
-                            fontFamily: "Freesentation-9Black"
+                            fontFamily: "Freesentation-9Black, sans-serif"
                         }}>카지노 & 슬롯 API</b>
                         <b className={"text-[20px]"} style={{
-                            fontFamily: "Freesentation-9Black"
+                            fontFamily: "Freesentation-9Black, sans-serif"
                         }}>API 에이전시</b>
                         <div className={"w-full flex sm:flex-row xs:flex-col gap-2 mt-10"}>
                             {array.map((a, key) =>
@@ -26,7 +26,7 @@ export default function Apis() {
                                         <Image src={`/${key + 1}.png`} fill alt={"api"}/>
                                     </div>
                                     <b className={"sm:text-[24px] xs:text-[18px] mt-5"} style={{
-                                        fontFamily: "Freesentation-9Black"
+                                        fontFamily: "Freesentation-9Black, sans-serif"
                                     }}>{title[key]}</b>
                                     <div className={"whitespace-pre-wrap text-center sm:text-[16px] xs:text-[14px]"}>
                                         {desc[key]}

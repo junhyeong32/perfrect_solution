@@ -17,8 +17,7 @@
     font-style: normal;
 }
 
-body{
-    font-family: WavvePADO-Regular;
-    font-weight: normal;
+body {
+    font-family: "WavvePADO-Regular, sans-serif";
     color: white;
 }
