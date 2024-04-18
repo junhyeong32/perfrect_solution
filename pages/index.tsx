@@ -7,10 +7,11 @@ const inter = Inter({subsets: ["latin"]});
 export default function Home() {
     return (
         <Layout>
-            <div className={"w-full min-h-screen flex flex-col justify-center text-center text-white mt-[-50px] mb-[-50px] px-2"} style={{
-                background: "center/cover no-repeat url('/background2.jpeg')"
-            }}>
-                <b className={"sm:text-[44px] xs:text-[25px]"}>솔루션 업계 1위! 퍼펙트 솔루션</b><br/><br/>
+            <div
+                className={"w-full min-h-screen flex flex-col justify-center text-center text-white px-2 background"}>
+                <b className={"sm:text-[50px] xs:text-[30px]"} style={{
+                    fontFamily: "Freesentation-9Black"
+                }}>솔루션 업계 1위! 퍼펙트 솔루션</b><br/><br/>
                 <div className={"whitespace-pre-wrap text-center sm:text-[20px] xs:text-[16px]"}>
                     {`퍼펙트솔루션은 업계 최고의 전문가들로 이루어져 있어 
 고객님들께 최상의 솔루션을 제공해 드립니다.
@@ -25,7 +26,8 @@ export default function Home() {
           
           `}
                 </div>
-                <b className={"sm:text-[20px] xs:text-[16px]"}>카지노 솔루션 | 슬롯 솔루션 | 스포츠 솔루션 | 파워볼 솔루션 | FX 솔루션 | 홀덤 솔루션 | 정품 통합알 API | 자체 파싱알 API</b>
+                <b className={"sm:text-[20px] xs:text-[16px]"}>카지노 솔루션 | 슬롯 솔루션 | 스포츠 솔루션 | 파워볼 솔루션 | FX 솔루션 | 홀덤 솔루션 |
+                    정품 통합알 API | 자체 파싱알 API</b>
             </div>
         </Layout>
     );

@@ -13,15 +13,21 @@ export default function Apis() {
             <div className={"w-full max-w-[1280px] flex flex-col items-center text-center px-5"}>
                 <div className={"w-full flex md:flex-row xs:flex-col gap-10"}>
                     <section className={"w-full flex flex-col items-center gap-2"}>
-                        <b className={"sm:text-[40px] xs:text-[30px]"}>카지노 & 슬롯 API</b>
-                        <b className={"text-[20px]"}>API 에이전시</b>
+                        <b className={"sm:text-[40px] xs:text-[30px]"} style={{
+                            fontFamily: "Freesentation-9Black"
+                        }}>카지노 & 슬롯 API</b>
+                        <b className={"text-[20px]"} style={{
+                            fontFamily: "Freesentation-9Black"
+                        }}>API 에이전시</b>
                         <div className={"w-full flex sm:flex-row xs:flex-col gap-2 mt-10"}>
                             {array.map((a, key) =>
                                 <div className={"w-full flex flex-col items-center gap-2"} key={key}>
-                                    <div className={"relative lg:w-[150px] h-[300px] xs:w-full"}>
+                                    <div className={"relative lg:w-[200px] h-[200px] xs:w-full"}>
                                         <Image src={`/${key + 1}.png`} fill alt={"api"}/>
                                     </div>
-                                    <b className={"sm:text-[20px] xs:text-[16px]"}>{title[key]}</b>
+                                    <b className={"sm:text-[24px] xs:text-[18px] mt-5"} style={{
+                                        fontFamily: "Freesentation-9Black"
+                                    }}>{title[key]}</b>
                                     <div className={"whitespace-pre-wrap text-center sm:text-[16px] xs:text-[14px]"}>
                                         {desc[key]}
                                     </div>
@@ -32,11 +38,15 @@ export default function Apis() {
 
 
                     <section className={"w-full flex flex-col items-center gap-2"}>
-                        <b className={"sm:text-[40px] xs:text-[30px]"}>카지노 & 슬롯 파싱 API</b>
-                        <b className={"text-[20px]"}>자체 개발한 파싱 API 를 제공합니다</b>
+                        <b className={"sm:text-[40px] xs:text-[30px]"} style={{
+                            fontFamily: "Freesentation-9Black"
+                        }}>카지노 & 슬롯 파싱 API</b>
+                        <b className={"text-[20px]"} style={{
+                            fontFamily: "Freesentation-9Black"
+                        }}>자체 개발한 파싱 API 를 제공합니다</b>
                         <div className={"flex flex-col items-center mt-10"}>
                             <Image src={"/gaming.png"} width={188} height={62} alt={"gaming"}/>
-                            <div className={"whitespace-pre-wrap text-center text-[13px]"}>
+                            <div className={"whitespace-pre-wrap text-center text-[13px] mt-4"}>
                                 {`에볼루션 자체 개발 파싱 버전은
 정품과 모두 동일하게 개발되었습니다.
 채팅시 정품에도 동일하게 채팅이 표출되며
@@ -65,7 +75,7 @@ export default function Apis() {
                     </section>
                 </div>
 
-                <div className={"bg-[#F1F1F1] px-10 py-4 text-center mt-20"}>
+                <div className={"bg-[#232323] px-10 py-4 text-center mt-20"}>
                     각 에이전시에서 제공되는 게임사 리스트 및 수수료는<br/>
                     텔레그램을 통해 24시 안내해드리고 있습니다
 

@@ -7,12 +7,14 @@ const inter = Inter({subsets: ["latin"]});
 export default function Concerting() {
     return (
         <Layout>
-            <div className={"w-full max-w-[1280px] min-h-screen flex flex-col items-center px-5"}>
+            <div className={"w-full max-w-[1280px] min-h-screen flex flex-col items-center pt-[80px] px-5"}>
                 <div className={"w-full flex flex-col gap-10"}>
                     <section className={"w-full flex flex-col gap-2"}>
-                        <div className={"flex items-end border-b-2 border-black w-full pb-2"}>
+                        <div className={"flex items-end border-b-2 border-black w-full pb-2"} style={{
+                            fontFamily : "Freesentation-9Black"
+                        }}>
                             <span className={"sm:text-[30px] xs:text-[20px]"}>Website Games Design</span>
-                            <span className={"sm:text-[18px] xs:text-[14px]"}>디자인 제작</span>
+                            <span className={"sm:text-[18px] xs:text-[14px] ml-1 mb-1"}>디자인 제작</span>
                         </div>
                         <div className={"w-full flex md:flex-row xs:flex-col items-center gap-10"}>
                             <div className={"relative md:w-[600px] h-[350px] xs:w-full"}>
@@ -40,9 +42,11 @@ export default function Concerting() {
                     </section>
 
                     <section className={"w-full flex flex-col gap-2"}>
-                        <div className={"flex items-end border-b-2 border-black w-full pb-2"}>
+                        <div className={"flex items-end border-b-2 border-black w-full pb-2"} style={{
+                            fontFamily : "Freesentation-9Black"
+                        }}>
                             <span className={"sm:text-[30px] xs:text-[20px]"}>Game API</span>
-                            <span className={"sm:text-[18px] xs:text-[14px]"}>API연동 / API 세팅</span>
+                            <span className={"sm:text-[18px] xs:text-[14px] ml-1 mb-1"}>API연동 / API 세팅</span>
                         </div>
                         <div className={"w-full flex md:flex-row xs:flex-col items-center gap-10"}>
                             <div className={"relative md:w-[600px] h-[350px] xs:w-full"}>
@@ -68,9 +72,11 @@ export default function Concerting() {
                     </section>
 
                     <section className={"w-full flex flex-col gap-2"}>
-                        <div className={"flex items-end border-b-2 border-black w-full pb-2"}>
+                        <div className={"flex items-end border-b-2 border-black w-full pb-2"} style={{
+                            fontFamily : "Freesentation-9Black"
+                        }}>
                             <span className={"sm:text-[30px] xs:text-[20px]"}>Security management system</span>
-                            <span className={"sm:text-[18px] xs:text-[14px]"}>보안 관리 시스템</span>
+                            <span className={"sm:text-[18px] xs:text-[14px] ml-1 mb-1"}>보안 관리 시스템</span>
                         </div>
                         <div className={"w-full flex md:flex-row xs:flex-col items-center gap-10"}>
                             <div className={"relative md:w-[600px] h-[350px] xs:w-full"}>

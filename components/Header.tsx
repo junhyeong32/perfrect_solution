@@ -14,12 +14,20 @@ export default function Header() {
 
 
     return (
-        <header className="w-full h-[80px] flex justify-between items-center bg-white shadow md:px-24 xs:px-4">
+        <header className="w-full h-[100px] flex justify-between items-center shadow md:px-24 xs:px-4 bg-black">
             {/*  fixed top-0 z-[1] */}
-            <button onClick={() => router.push("/")}>
-                <b className={"text-lg"}>Perfect Solution</b>
+            <button onClick={() => router.push("/")}
+                    style={{
+                        fontFamily: "Freesentation-9Black",
+                        lineHeight:1
+                    }}
+            >
+                <div className={"flec flex-col text-white"}>
+                    <b className={"text-[35px]"}>PERFECT</b>
+                    <p className={"text-[20px]"}>SOLUTION</p>
+                </div>
             </button>
-            <nav className="md:flex xs:hidden gap-4">
+            <nav className="md:flex xs:hidden gap-4 text-white">
                 {/*<Link className={router.asPath === "/profile" ? "font-bold" : undefined} href="/profile">PROFILE</Link>*/}
                 <Link className={router.asPath === "/" ? "font-bold" : undefined} href="/">HOME</Link>
                 <Link className={router.asPath === "/solution" ? "font-bold" : undefined} href="/solution">퍼펙트솔루션</Link>
