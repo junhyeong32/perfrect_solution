@@ -19,7 +19,7 @@ export default function Header() {
             <button onClick={() => router.push("/")}
                     style={{
                         fontFamily: "Freesentation-9Black, sans-serif",
-                        lineHeight:1
+                        lineHeight: 1
                     }}
             >
                 <div className={"flec flex-col text-white"}>
@@ -27,12 +27,12 @@ export default function Header() {
                     <p className={"text-[20px]"}>SOLUTION</p>
                 </div>
             </button>
-            <nav className="md:flex xs:hidden gap-4 text-white">
+            <nav className="md:flex xs:hidden gap-10 text-white">
                 {/*<Link className={router.asPath === "/profile" ? "font-bold" : undefined} href="/profile">PROFILE</Link>*/}
-                <Link href="/">HOME</Link>
-                <Link href="/solution">퍼펙트솔루션</Link>
-                <Link  href="/apis">정품통합알 및 파싱 api</Link>
-                <Link href="/concerting">컨설팅</Link>
+                <Link className={"font-bold"} href="/">HOME</Link>
+                <Link className={"font-bold"} href="/solution">퍼펙트솔루션</Link>
+                <Link className={"font-bold"} href="/apis">정품통합알 및 파싱 api</Link>
+                <Link className={"font-bold"} href="/concerting">컨설팅</Link>
             </nav>
             <Image src={"/hambuger.png"} width={25} height={15}
                    alt={"hambuger"}
