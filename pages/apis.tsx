@@ -10,7 +10,7 @@ const desc = ["트랜스퍼 방식\n카지노&슬롯\n정품 통합", "심리스
 export default function Apis() {
     return (
         <Layout>
-            <div className={"w-full max-w-[1280px] flex flex-col items-center text-center px-5"}>
+            <div className={"w-full max-w-[1280px] flex flex-col items-center text-center px-5 pt-[80px]"}>
                 <div className={"w-full flex md:flex-row xs:flex-col gap-10"}>
                     <section className={"w-full flex flex-col items-center gap-2"}>
                         <b className={"sm:text-[40px] xs:text-[30px]"} style={{
