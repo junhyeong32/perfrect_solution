@@ -17,7 +17,7 @@ export default function Layout<FC>({children}: any) {
                 style={{
                     background: "center/cover no-repeat url('/background2.jpeg')",
                     opacity: router.pathname === "/" ? 1 : 0.9,
-                    minHeight: "calc(100vh - 100px)",
+                    minHeight: "calc(100vh - 120px)",
                 }}
             >
                 {children}

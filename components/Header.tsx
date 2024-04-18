@@ -14,7 +14,7 @@ export default function Header() {
 
 
     return (
-        <header className="w-full h-[100px] flex justify-between items-center shadow md:px-24 xs:px-4 bg-black">
+        <header className="w-full h-[120px] flex justify-between items-center shadow md:px-24 xs:px-4 bg-black">
             {/*  fixed top-0 z-[1] */}
             <button onClick={() => router.push("/")}
                     style={{

@@ -7,9 +7,9 @@ const inter = Inter({subsets: ["latin"]});
 export default function Solution() {
     return (
         <Layout>
-            <div className={"w-full max-w-[1280px] flex flex-col items-center text-center px-5"}>
-                <div className={"w-full flex md:flex-row xs:flex-col gap-10"}>
-                    <section className={"w-full flex flex-col items-center gap-2 animate__animated animate__fadeInUp"}>
+            <div className={"w-full h-full max-w-[1280px] flex flex-col items-center text-center px-5 pt-[80px]"}>
+                <div className={"w-full h-full items-start flex md:flex-row xs:flex-col gap-10"}>
+                    <section className={"w-full flex flex-col h-full justify-center items-center gap-2 animate__animated animate__fadeInUp"}>
                         <div className={"relative lg:w-[600px] h-[400px] xs:w-full"}>
                             <Image src={"/slot.jpeg"} fill alt={"slot"}/>
                             <div className={"w-full absolute sm:text-[35px] xs:text-[25px] top-[50%] left-[50%]"}
@@ -43,17 +43,18 @@ export default function Solution() {
                                  animationDelay: "0.25s"
                              }}
                     >
-                        <div className={"relative lg:w-[600px] h-[363px] xs:w-full "}>
-                            <Image src={"/sports.png"} fill alt={"sports"}/>
-                            <div className={"w-full absolute sm:text-[35px] xs:text-[25px] top-[50%] left-[50%]"}
-                                 style={{
-                                     transform: 'translate(-50%, -43%)',
-                                     fontFamily: "Freesentation-9Black"
-                                 }}
-                            >
-                                SPORTS and CASINO<br/>
-                                스포츠 통합형 솔루션
-                            </div>
+                            <div className={"relative lg:w-[600px] h-[363px] xs:w-full mb-[35px] "}>
+                                <Image src={"/sports.png"} fill alt={"sports"}/>
+
+                                <div className={"w-full absolute sm:text-[35px] xs:text-[25px] top-[50%] left-[50%]"}
+                                     style={{
+                                         transform: 'translate(-50%, -43%)',
+                                         fontFamily: "Freesentation-9Black"
+                                     }}
+                                >
+                                    SPORTS and CASINO<br/>
+                                    스포츠 통합형 솔루션
+                                </div>
                         </div>
                         <b className={"sm:text-[25px] xs:text-[18px]"}
                            style={{
