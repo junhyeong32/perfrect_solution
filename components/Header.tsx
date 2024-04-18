@@ -43,7 +43,7 @@ export default function Header() {
             />
             {
                 open && <div
-                    className={"flex flex-col justify-center items-center fixed w-screen h-screen bg-[#f8f8f8] z-[9999] left-0 top-0 gap-10 animate__animated animate__slideInRight animate__fast ease-in-out"}>
+                    className={"flex flex-col justify-center items-center fixed w-screen h-screen bg-[#f8f8f8] z-[9999] left-0 top-0 gap-10 animate__animated animate__slideInRight animate__fast ease-in-out text-black"}>
                     <div className={"absolute top-10 right-5"}>
                         <Image src={"/close.png"} width={35} height={35}
                                alt={"close"}
