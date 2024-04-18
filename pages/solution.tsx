@@ -47,7 +47,7 @@ export default function Solution() {
                             <Image src={"/sports.png"} fill alt={"sports"}/>
                             <div className={"w-full absolute sm:text-[35px] xs:text-[25px] top-[50%] left-[50%]"}
                                  style={{
-                                     transform: 'translate(-50%, -50%)',
+                                     transform: 'translate(-50%, -43%)',
                                      fontFamily: "Freesentation-9Black"
                                  }}
                             >
