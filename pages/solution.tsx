@@ -43,7 +43,7 @@ export default function Solution() {
                                  animationDelay: "0.25s"
                              }}
                     >
-                        <div className={"relative lg:w-[600px] h-[400px] xs:w-full "}>
+                        <div className={"relative lg:w-[600px] h-[363px] xs:w-full "}>
                             <Image src={"/sports.png"} fill alt={"sports"}/>
                             <div className={"w-full absolute sm:text-[35px] xs:text-[25px] top-[50%] left-[50%]"}
                                  style={{
