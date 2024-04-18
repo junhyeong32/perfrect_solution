@@ -12,13 +12,12 @@ export default function Header() {
         setOpen(false)
     }, [router]);
 
-    console.log(router)
 
     return (
         <header className="w-full h-[80px] flex justify-between items-center bg-white shadow md:px-24 xs:px-4">
             {/*  fixed top-0 z-[1] */}
             <button onClick={() => router.push("/")}>
-                <b className={"text-lg"}>Pertfect Solution</b>
+                <b className={"text-lg"}>Perfect Solution</b>
             </button>
             <nav className="md:flex xs:hidden gap-4">
                 {/*<Link className={router.asPath === "/profile" ? "font-bold" : undefined} href="/profile">PROFILE</Link>*/}

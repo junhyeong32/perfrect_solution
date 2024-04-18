@@ -41,8 +41,8 @@ export default function Concerting() {
 
                     <section className={"w-full flex flex-col gap-2"}>
                         <div className={"flex items-end border-b-2 border-black w-full pb-2"}>
-                            <span className={"sm:text-[30px] xs:text-[20px]"}>Website Games Design</span>
-                            <span className={"sm:text-[18px] xs:text-[14px]"}>디자인 제작</span>
+                            <span className={"sm:text-[30px] xs:text-[20px]"}>Game API</span>
+                            <span className={"sm:text-[18px] xs:text-[14px]"}>API연동 / API 세팅</span>
                         </div>
                         <div className={"w-full flex md:flex-row xs:flex-col items-center gap-10"}>
                             <div className={"relative md:w-[600px] h-[350px] xs:w-full"}>
@@ -56,7 +56,7 @@ export default function Concerting() {
 다시 말해,
 서버에 영상+ 관리자 + 사이트를 연동하여세팅하는 것을 API 연동이라 부르기도 합니다.
 
-S-게이밍은 강력한 솔루션과 더불어 원활하고 안정적인 영상송출 기술과
+퍼펙트솔루션은 원활하고 안정적인 영상송출 기술과
 신속하고 정확한 카지노 API 연동 기술력을 제공해 드립니다.
 카지노 사이트 제작의 기본적인 카지노 알공급과 API를 원활하고 안정적으로 연동 해 드립니다.
 
