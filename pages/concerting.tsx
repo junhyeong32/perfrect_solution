@@ -10,7 +10,7 @@ export default function Concerting() {
             <div className={"w-full max-w-[1280px] min-h-screen flex flex-col items-center pt-[80px] px-5"}>
                 <div className={"w-full flex flex-col gap-10"}>
                     <section className={"w-full flex flex-col gap-2"}>
-                        <div className={"flex items-end border-b-2 border-black w-full pb-2"} style={{
+                        <div className={"flex items-end border-b-2 border-white w-full pb-2"} style={{
                             fontFamily: "Freesentation-9Black, sans-serif",
                         }}>
                             <span className={"sm:text-[30px] xs:text-[20px]"}>Website Games Design</span>
@@ -42,7 +42,7 @@ export default function Concerting() {
                     </section>
 
                     <section className={"w-full flex flex-col gap-2"}>
-                        <div className={"flex items-end border-b-2 border-black w-full pb-2"} style={{
+                        <div className={"flex items-end border-b-2 border-white w-full pb-2"} style={{
                             fontFamily : "Freesentation-9Black"
                         }}>
                             <span className={"sm:text-[30px] xs:text-[20px]"}>Game API</span>
@@ -72,7 +72,7 @@ export default function Concerting() {
                     </section>
 
                     <section className={"w-full flex flex-col gap-2"}>
-                        <div className={"flex items-end border-b-2 border-black w-full pb-2"} style={{
+                        <div className={"flex items-end border-b-2 border-white w-full pb-2"} style={{
                             fontFamily : "Freesentation-9Black"
                         }}>
                             <span className={"sm:text-[30px] xs:text-[20px]"}>Security management system</span>
