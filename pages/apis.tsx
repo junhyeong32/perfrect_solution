@@ -64,6 +64,12 @@ export default function Apis() {
                         </div>
                     </section>
                 </div>
+
+                <div className={"bg-[#F1F1F1] px-10 py-4 text-center mt-20"}>
+                    각 에이전시에서 제공되는 게임사 리스트 및 수수료는<br/>
+                    텔레그램을 통해 24시 안내해드리고 있습니다
+
+                </div>
             </div>
         </Layout>
     );
