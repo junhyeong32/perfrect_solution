@@ -22,11 +22,11 @@ export default function Solution() {
                                 카지노 슬롯 솔루션
                             </div>
                         </div>
-                        <b className={"sm:text-[25px] xs:text-[18px]"}
+                        <h1 className={"sm:text-[25px] xs:text-[18px]"}
                            style={{
                                fontFamily: "Freesentation-9Black"
                            }}
-                        >카지노&슬롯</b>
+                        >카지노&슬롯</h1>
                         <div className={"whitespace-pre-wrap text-center sm:text-[18px] xs:text-[14px]"}>
                             {`10년 이상 카지노 솔루션 임대를 통한 업계 최고의 기술력을 바탕으로
 고객의 니즈에 맞는 디자인 및 관리자 페이지 의 다양한 기능 제공
@@ -56,11 +56,11 @@ export default function Solution() {
                                     스포츠 통합형 솔루션
                                 </div>
                         </div>
-                        <b className={"sm:text-[25px] xs:text-[18px]"}
+                        <h1 className={"sm:text-[25px] xs:text-[18px]"}
                            style={{
                                fontFamily: "Freesentation-9Black"
                            }}
-                        >스포츠 미니게임 카지노 슬롯 통합형 솔루션</b>
+                        >스포츠 미니게임 카지노 슬롯 통합형 솔루션</h1>
                         <div className={"whitespace-pre-wrap text-center sm:text-[18px] xs:text-[14px]"}>
                             {`다양한 기능 이 구현되어 있으며
 수많은 임대를 통해 최적화된 솔루션 입니다

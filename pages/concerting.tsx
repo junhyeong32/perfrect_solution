@@ -13,7 +13,7 @@ export default function Concerting() {
                         <div className={"flex items-end border-b-2 border-white w-full pb-2"} style={{
                             fontFamily: "Freesentation-9Black, sans-serif",
                         }}>
-                            <span className={"sm:text-[30px] xs:text-[20px]"}>Website Games Design</span>
+                            <h1 className={"sm:text-[30px] xs:text-[20px]"}>Website Games Design</h1>
                             <span className={"sm:text-[18px] xs:text-[14px] ml-1 mb-1"}>디자인 제작</span>
                         </div>
                         <div className={"w-full flex md:flex-row xs:flex-col items-center gap-10"}>
@@ -45,7 +45,7 @@ export default function Concerting() {
                         <div className={"flex items-end border-b-2 border-white w-full pb-2"} style={{
                             fontFamily : "Freesentation-9Black"
                         }}>
-                            <span className={"sm:text-[30px] xs:text-[20px]"}>Game API</span>
+                            <h1 className={"sm:text-[30px] xs:text-[20px]"}>Game API</h1>
                             <span className={"sm:text-[18px] xs:text-[14px] ml-1 mb-1"}>API연동 / API 세팅</span>
                         </div>
                         <div className={"w-full flex md:flex-row xs:flex-col items-center gap-10"}>
@@ -75,7 +75,7 @@ export default function Concerting() {
                         <div className={"flex items-end border-b-2 border-white w-full pb-2"} style={{
                             fontFamily : "Freesentation-9Black"
                         }}>
-                            <span className={"sm:text-[30px] xs:text-[20px]"}>Security management system</span>
+                            <h1 className={"sm:text-[30px] xs:text-[20px]"}>Security management system</h1>
                             <span className={"sm:text-[18px] xs:text-[14px] ml-1 mb-1"}>보안 관리 시스템</span>
                         </div>
                         <div className={"w-full flex md:flex-row xs:flex-col items-center gap-10"}>

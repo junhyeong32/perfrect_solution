@@ -13,9 +13,9 @@ export default function Apis() {
             <div className={"w-full max-w-[1280px] flex flex-col items-center text-center px-5 pt-[80px]"}>
                 <div className={"w-full flex md:flex-row xs:flex-col gap-10"}>
                     <section className={"w-full flex flex-col items-center gap-2"}>
-                        <b className={"sm:text-[40px] xs:text-[30px]"} style={{
+                        <h1 className={"sm:text-[40px] xs:text-[30px]"} style={{
                             fontFamily: "Freesentation-9Black, sans-serif"
-                        }}>카지노 & 슬롯 API</b>
+                        }}>카지노 & 슬롯 API</h1>
                         <b className={"text-[20px]"} style={{
                             fontFamily: "Freesentation-9Black, sans-serif"
                         }}>API 에이전시</b>
@@ -38,9 +38,9 @@ export default function Apis() {
 
 
                     <section className={"w-full flex flex-col items-center gap-2"}>
-                        <b className={"sm:text-[40px] xs:text-[30px]"} style={{
+                        <h1 className={"sm:text-[40px] xs:text-[30px]"} style={{
                             fontFamily: "Freesentation-9Black"
-                        }}>카지노 & 슬롯 파싱 API</b>
+                        }}>카지노 & 슬롯 파싱 API</h1>
                         <b className={"text-[20px]"} style={{
                             fontFamily: "Freesentation-9Black"
                         }}>자체 개발한 파싱 API 를 제공합니다</b>
